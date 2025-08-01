@@ -4,6 +4,16 @@ import { Card, CardContent } from '@/components/ui/card';
 const Projects = () => {
   const projects = [
     {
+      title: "AI Trip Planner Agent",
+      description: "An intelligent, agentic AI-powered travel planner leveraging self-hosted Gemma 3 1B LLM and real-time data from multiple APIs. Features LangGraph-based multi-tool reasoning, deployed on Google Cloud Run with GPU acceleration.",
+      image: "/ai-trip-planner-screenshot.png",
+      tech: ["LangGraph", "Gemma 3", "FastAPI", "Streamlit", "Google Cloud", "Docker"],
+      category: "Agentic AI",
+      year: "2024",
+      github: "https://github.com/ritzzi23/ai_trip_planner_agent",
+      live: "https://ai-trip-planner-frontend-549370391494.europe-west1.run.app/"
+    },
+    {
       title: "Autonomous Driving Vision System",
       description: "A computer vision system for autonomous vehicles using deep learning to detect objects, lane lines, and traffic signs in real-time with 99.2% accuracy.",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
@@ -29,16 +39,6 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
       tech: ["TensorFlow", "Keras", "CNN", "DICOM"],
       category: "Healthcare AI",
-      year: "2023",
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "Predictive Analytics Engine",
-      description: "Machine learning platform for real-time predictive analytics, processing millions of data points to forecast trends and optimize business decisions.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      tech: ["Python", "Apache Spark", "MLflow", "Kubernetes"],
-      category: "MLOps",
       year: "2023",
       github: "#",
       live: "#"
@@ -85,12 +85,16 @@ const Projects = () => {
                     <div className="flex space-x-4">
                       <a 
                         href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="p-3 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition-colors group"
                       >
                         <Github className="w-5 h-5 text-white" />
                       </a>
                       <a 
                         href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="p-3 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition-colors group"
                       >
                         <ExternalLink className="w-5 h-5 text-white" />
