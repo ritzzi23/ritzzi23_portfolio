@@ -10,7 +10,7 @@ const Projects = () => {
       tech: ["LangGraph", "Gemma 3", "FastAPI", "Streamlit", "Google Cloud", "Docker"],
       category: "Agentic AI",
       year: "2024",
-      github: "https://github.com/ritzzi23/ai_trip_planner_agent",
+      github: "https://github.com/ritzzi23/ai_trip_planner_agent/tree/final_code",
       live: "https://ai-trip-planner-frontend-549370391494.europe-west1.run.app/"
     },
     {
