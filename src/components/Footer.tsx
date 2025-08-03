@@ -61,13 +61,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          {/* Bottom section */}
-          <div className="border-t border-slate-700 dark:border-slate-800 pt-3 mt-2 flex flex-col md:flex-row justify-between items-center text-xs">
-            <p className="text-slate-400 dark:text-slate-300 flex items-center space-x-1 mb-2 md:mb-0">
-              <span>© 2024 AI Engineer. Made with</span>
-              <Heart className="w-3 h-3 text-red-500 fill-current" />
-              <span>and cutting-edge AI technologies</span>
-            </p>
+                    {/* Bottom section */}
+          <div className="border-t border-slate-700 dark:border-slate-800 pt-3 mt-2 flex justify-center items-center text-xs">
+ 
             {/* Back to top button */}
             <button 
               onClick={scrollToTop}

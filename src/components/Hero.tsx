@@ -1,4 +1,5 @@
-import { ArrowDown, Github, Linkedin, Mail, Download, Brain, Sparkles, Zap } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Download, Brain, Sparkles, Zap, Code } from 'lucide-react';
+import LeetCodeIcon from './LeetCodeIcon';
 
 const Hero = () => {
   return (
@@ -34,22 +35,16 @@ const Hero = () => {
           {/* Personal introduction */}
           <div className="mb-4">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-800 dark:text-slate-100 mb-2">Hi, I'm Ritesh Ojha</h1>
-            <p className="text-xl text-blue-700 dark:text-blue-300 font-semibold mb-2">AI Engineer & ML Enthusiast</p>
-            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">I love building intelligent systems that solve real-world problems. My passion is exploring the frontiers of machine learning, deep learning, and natural language processing. Welcome to my portfolio!</p>
+            <p className="text-xl text-blue-700 dark:text-blue-300 font-semibold mb-2">Machine Learning Engineer</p>
+            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">I specialize in building scalable AI systems and data pipelines.<br />Welcome to my portfolio where data drives intelligence and systems scale seamlessly.</p>
           </div>
           
           {/* Premium typography with gradient text */}
-          <div className="flex items-center justify-center gap-2 mb-2">
+          <div className="flex items-center justify-center gap-2 mb-6">
             <div className="h-0.5 w-12 bg-gradient-to-r from-transparent to-blue-400 dark:to-blue-500"></div>
             <Sparkles className="w-4 h-4 text-purple-500 dark:text-purple-400" />
             <div className="h-0.5 w-12 bg-gradient-to-l from-transparent to-purple-400 dark:to-purple-500"></div>
           </div>
-          
-          <p className="text-lg text-slate-500 dark:text-slate-400 mb-6 max-w-3xl mx-auto leading-relaxed">
-            Architecting next-generation AI systems with cutting-edge neural networks, 
-            autonomous agents, and transformative machine learning solutions that push 
-            the boundaries of artificial intelligence.
-          </p>
           
           {/* Enhanced action buttons with premium styling */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
@@ -93,6 +88,11 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/ritzzi23/" target="_blank" rel="noopener noreferrer">
               <button type="button" className="flex items-center justify-center w-16 h-16 rounded-2xl border-2 shadow-lg transition-all duration-300 bg-gradient-to-br from-white via-slate-100 to-slate-200 dark:from-slate-800 dark:via-slate-900 dark:to-slate-800 border-slate-200 dark:border-slate-700 hover:scale-105 hover:shadow-2xl hover:brightness-110 hover:bg-gradient-to-tr hover:from-blue-100 hover:to-purple-100 dark:hover:from-blue-900 dark:hover:to-purple-900 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-blue-600 dark:focus:ring-offset-slate-900 active:scale-100 active:shadow-xl group p-0">
                 <Linkedin className="w-9 h-9 text-slate-600 dark:text-slate-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300" />
+              </button>
+            </a>
+            <a href="https://github.com/ritzzi23/data_structure_problems" target="_blank" rel="noopener noreferrer">
+              <button type="button" className="flex items-center justify-center w-16 h-16 rounded-2xl border-2 shadow-lg transition-all duration-300 bg-gradient-to-br from-white via-slate-100 to-slate-200 dark:from-slate-800 dark:via-slate-900 dark:to-slate-800 border-slate-200 dark:border-slate-700 hover:scale-105 hover:shadow-2xl hover:brightness-110 hover:bg-gradient-to-tr hover:from-blue-100 hover:to-purple-100 dark:hover:from-blue-900 dark:hover:to-purple-900 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-blue-600 dark:focus:ring-offset-slate-900 active:scale-100 active:shadow-xl group p-0">
+                <LeetCodeIcon className="w-9 h-9 text-slate-600 dark:text-slate-300 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors duration-300" />
               </button>
             </a>
             <a href="mailto:ro2283@nyu.edu">

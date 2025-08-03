@@ -83,9 +83,7 @@ const Skills = () => {
             <h2 className="text-4xl md:text-5xl font-extralight text-slate-800 dark:text-slate-100 mb-6 tracking-tight">
               Technical <span className="font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent">Mastery</span>
             </h2>
-            <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Cutting-edge AI/ML technologies powering the next generation of intelligent systems
-            </p>
+
           </div>
           
           {/* Enhanced skill categories */}
