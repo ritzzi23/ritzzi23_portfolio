@@ -43,20 +43,20 @@ const About = () => {
         {
           name: 'NYU Tandon School of Engineering',
           courses: [
-            'Advanced Machine Learning',
-            'Deep Learning for NLP',
+            'Machine Learning',
+            'MLOps',
           ],
         },
         {
           name: 'NYU Stern School of Business',
           courses: [
-            'Big Data Analytics',
+            'Data Science for Business: Technical',
           ],
         },
         {
           name: 'NYU Center for Data Science',
           courses: [
-            'AI Systems Engineering',
+            'Deep Learning by Prof. Yann LeCun',
           ],
         },
       ],
